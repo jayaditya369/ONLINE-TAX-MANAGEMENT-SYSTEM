@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Registration</title>
+<style>
+body 
+{ 
+    background-image: url("loginbg.jpg");
+    background-repeat: no-repeat;
+	background-size: 100%;
+}
+</style>
+</head>
+<body background="background.jpg">
+<form action="register.php" method="post" >
+<center>
+<h>REGISTRATION PAGE<h1>
+<h4>
+<table bgcolor=skyblue>
+<tr>
+	<td>Owner Name</td>
+	<td><input type="text" name="oname" required="required" ><br></td>
+</tr>
+
+<tr>
+	<td>Aadhar Number</td>
+	<td><input type="number" name="aadhar" required="required"><br></td>
+</tr>
+
+<tr>
+	<td>Door Number</td>
+	<td><input type="text" name="dno" required="required" ><br></td>
+</tr>
+
+<tr>
+	<td>Phone Number</td>
+	<td><input type="number" name="pno" required="required" ><br></td>
+</tr>
+
+<tr>
+	<td>Electricity Service No.</td>
+	<td><input type="number" name="ebno" required="required" ><br></td>
+</tr>
+
+<tr>
+	<td>Water Service No.</td>
+	<td><input type="number" name="wbno" required="required" ><br></td>
+</tr>
+
+<tr>
+	<td> Enter Password</td>
+	<td><input type="password" name="password"required="required" required title="(8 chars minimum)" ><br></td>
+</tr>
+
+<tr>
+	<td>Re-Enter Password</td>
+	<td><input type="password" name="password1" required="required" ><br></td>
+</tr>
+</table>
+<br>
+<button type="submit" value="submit">REGISTER</button>
+<td><button><a href="login.html" value="back">Back</a></button></td>
+</center>
+</body>
+</html>
